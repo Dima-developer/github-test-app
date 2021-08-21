@@ -1,0 +1,51 @@
+$headerColor: #8B5CF6;
+$buttonColor: #10B981;
+
+.headerBar {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: $headerColor;
+    
+}
+.searchBar {
+    display: block;
+    position: absolute;
+    right: 60px;
+    width: fit-content;
+    margin: 6px 0 6px 0;
+    label {
+        font-family: 'Roboto';
+        font-size: 1rem;
+        margin-right: 0.5rem;
+    }
+    input {
+        padding: 2px 8px 2px 8px;
+        border: 2px solid #6D28D9;
+        border-radius: 5px;
+        height: fit-content;
+        width: 20rem;
+        line-height: 30px;
+        font-family: 'Roboto';
+        font-size: 0.9rem;
+    }
+    .btn {
+        width: fit-content;
+        height: 38px;
+        padding: 0 15px;
+        background-color: $buttonColor;
+        outline: none;
+        border: 1px solid $buttonColor;
+        border-radius: 5px;
+        margin-left: 10px;
+        font-family: 'Roboto';
+        font-size: 1rem;
+        &:active {
+            border-color: #047857;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+}
+}
+
